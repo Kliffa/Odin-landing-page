@@ -10,8 +10,16 @@ body{
     justify-content: space-between;
     align-items: center;  
 }
-footer{
+/* footer{
     margin-top: auto;
+    text-align: center;
+    padding: 24px 200px;
+} */
+footer{
+    position:fixed;
+    bottom: 0;
+    left:0;
+    right:0;
     text-align: center;
     padding: 24px 200px;
 }
@@ -24,7 +32,6 @@ footer{
 
 .header,
 .section2,
-.section3,
 .section4{
     padding: 0px 200px;
 }
@@ -103,4 +110,9 @@ h2{
     text-align: center;
     color: #1F2937;
     font-size: 18px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    padding: 100px 200px;
 }
