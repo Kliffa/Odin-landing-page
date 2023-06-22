@@ -13,6 +13,7 @@ body{
 footer{
     margin-top: auto;
     text-align: center;
+    padding: 24px 200px;
 }
 
 .header,
@@ -22,7 +23,6 @@ footer{
 }
 
 .header,
-footer,
 .section1,
 .section2,
 .section3,
@@ -55,3 +55,30 @@ a{
     font-weight: 800;
 }
 
+.info-img{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border: 3px solid #3882F6 ;
+    background-color: white;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    margin: 35px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.info{
+    max-width: 160px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
