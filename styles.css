@@ -10,19 +10,19 @@ body{
     justify-content: space-between;
     align-items: center;  
 }
-/* footer{
+footer{
     margin-top: auto;
     text-align: center;
     padding: 24px 200px;
-} */
-footer{
+}
+/* footer{
     position:fixed;
     bottom: 0;
     left:0;
     right:0;
     text-align: center;
     padding: 24px 200px;
-}
+} */
 
 .header,
 .section1,
@@ -31,7 +31,6 @@ footer{
 }
 
 .header,
-.section2,
 .section4{
     padding: 0px 200px;
 }
@@ -71,7 +70,7 @@ a{
 .container1{
     display:flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
 }
 .subtext{
     color: #E5E7EB;
@@ -114,5 +113,56 @@ h2{
 
 .section3{
     background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote-author{
+    margin-top: 15px;
+    text-align: end;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px; 
+}
+
+button{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px 35px;
+    border: 0px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+}
+.cta1{
+
+    margin-top: 10px;
+}
+
+.cta2{
+    border: 2px solid white;
+    margin: 20px 0;
+}
+.section4{
     padding: 100px 200px;
+}
+.container4{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.ctatext{
+    font-weight: bold;
+    font-size: 20px;
+}
+.container4b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
